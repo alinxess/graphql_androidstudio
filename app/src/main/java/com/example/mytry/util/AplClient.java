@@ -5,7 +5,7 @@ import com.apollographql.apollo.ApolloClient;
 import okhttp3.OkHttpClient;
 
 public class AplClient {
-    public static  final String Base_URL="http://192.168.43.99:4000/graphql";
+    public static  final String Base_URL="http://your IP address(XXX.XXX.XX.XX):4000/graphql";
     private static ApolloClient mApolloClient;
 
     public static ApolloClient getmApolloClient() {
